@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Samuel Souza Miranda | Portfólio</title>
+  <style>
+    /* Estilo geral da página */
+    body {
+      margin: 0; /* Remove margem padrão do navegador */
+      font-family: Arial, sans-serif; /* Fonte legível e simples */
+      background-color: #f9f9f9; /* Cor de fundo clara */
+      color: #333; /* Cor do texto escura para boa leitura */
+    }
+
+    /* Estilo do cabeçalho da página */
+    header {
+      background-color: #222; /* Fundo escuro para destaque */
+      color: white; /* Texto claro no header */
+      padding: 20px; /* Espaçamento interno */
+      text-align: center; /* Centraliza o título e nav */
+    }
+
+    /* Estilo dos links de navegação no header */
+    nav a {
+      color: white; /* Cor branca para links no header */
+      margin: 0 15px; /* Espaço horizontal entre os links */
+      text-decoration: none; /* Remove sublinhado padrão */
+      font-weight: bold; /* Deixa o texto em negrito */
+    }
+
+    /* Estilo das seções principais */
+    section {
+      max-width: 900px; /* Limita largura máxima do conteúdo */
+      margin: 40px auto; /* Centraliza horizontalmente e dá margem vertical */
+      padding: 0 20px; /* Espaçamento lateral */
+    }
+
+    /* Títulos das seções */
+    h2 {
+      color: #444; /* Cor cinza escuro */
+      border-bottom: 2px solid #ddd; /* Linha embaixo do título para destaque */
+      padding-bottom: 5px; /* Espaço abaixo do texto para linha */
+    }
+
+    /* Container flexível para o "Sobre Mim" */
+    .sobre-container {
+      display: flex; /* Organiza conteúdo em linha */
+      flex-wrap: wrap; /* Permite quebra para telas menores */
+      align-items: flex-start; /* Alinha itens no topo */
+      gap: 20px; /* Espaçamento entre os itens */
+    }
+
+    /* Estilo da imagem na seção sobre */
+    .sobre-container img {
+      max-width: 200px; /* Limita o tamanho máximo da imagem */
+      border-radius: 12px; /* Canto arredondado */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra leve para profundidade */
+      flex-shrink: 0; /* Impede que a imagem encolha */
+    }
+
+    /* Texto ao lado da imagem */
+    .sobre-container .texto {
+      flex: 1; /* Ocupa o espaço restante */
+      min-width: 250px; /* Largura mínima para evitar muito encolhimento */
+    }
+
+    /* Estilo padrão para listas */
+    ul {
+      line-height: 1.8; /* Espaçamento maior entre linhas para melhor leitura */
+    }
+
+    /* Estilo do rodapé */
+    footer {
+      background-color: #222; /* Fundo escuro como o header */
+      color: white; /* Texto claro */
+      text-align: center; /* Centraliza texto */
+      padding: 20px; /* Espaçamento interno */
+      margin-top: 40px; /* Espaço antes do rodapé */
+    }
+
+    /* Estilo para todos os links na página */
+    a {
+      color: #0066cc; /* Azul para links */
+      text-decoration: none; /* Remove sublinhado padrão */
+    }
+
+    /* Efeito hover para links */
+    a:hover {
+      text-decoration: underline; /* Sublinhado ao passar o mouse */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho da página com título e menu de navegação -->
+  <header>
+    <h1>Samuel Souza Miranda</h1>
+    <nav>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#formacao">Formação</a>
+      <a href="#contato">Contato</a>
+      <a href="#portifolio">Portfólio</a>
+    </nav>
+  </header>
+
+  <!-- Seção Sobre Mim -->
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <div class="sobre-container">
+      <!-- Foto do Samuel -->
+      <img src="foto.jpg" alt="Foto de Samuel Souza Miranda">
+      <!-- Texto descritivo -->
+      <div class="texto">
+        <p>Olá! Sou <strong>Samuel Souza Miranda</strong>, um entusiasta da tecnologia que está sempre em busca de novos desafios e aprendizados. Estudante de <strong>Engenharia de Software</strong> e <strong>Cyber Systems para Automação</strong>, meu foco está em desenvolver soluções que unam <strong>eficiência, criatividade e inovação</strong>.</p>
+
+        <p>Tenho grande interesse por <strong>automação industrial, sistemas embarcados, redes de computadores</strong> e tudo que envolva a integração entre hardware e software. Gosto de explorar como a tecnologia pode melhorar processos e transformar ambientes em sistemas inteligentes e funcionais.</p>
+
+        <p>Além dos estudos e projetos, também cultivo hobbies que me ajudam a expandir a mente e manter o equilíbrio:</p>
+        <ul>
+          <li>🎮 Jogar videogame</li>
+          <li>📚 Estudar sobre novas tecnologias e tendências da área</li>
+          <li>🧗‍♂️ Fazer trilhas e estar em contato com a natureza</li>
+          <li>🏋️‍♂️ Praticar musculação e manter uma rotina saudável</li>
+          <li>⚽ Jogar futebol para relaxar e fortalecer o trabalho em equipe</li>
+          <li>🎵 Ouvir música para inspirar e concentrar nos momentos certos</li>
+        </ul>
+
+        <p>Sou movido por propósito e pela vontade constante de crescer. Acredito que dedicação, curiosidade e atitude são ferramentas tão poderosas quanto qualquer linha de código.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>&copy; 2025 Samuel Souza Miranda. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
